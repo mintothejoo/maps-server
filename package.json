@@ -1,6 +1,9 @@
 {
   "name": "server-boilerplate",
   "version": "3.1.0",
+  "engines": {
+    "node": "8.11.3"
+  },
   "private": true,
   "main": "dist/index.js",
   "scripts": {
