@@ -38,7 +38,7 @@ const config = {
         undefined,
         'http://localhost',
         'https://mintothejoo.github.io/maps/',
-        'https://mintothejoo.github.io/',
+        'production:https://mintothejoo.github.io',
       ],
     },
   },
