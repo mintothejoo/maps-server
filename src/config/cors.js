@@ -5,7 +5,6 @@ import config from './../config/config'
 const whitelist = config.cors.whitelist[process.env.NODE_ENV];
 const corsOptions = {
     origin: (origin, callback) => {
-        console.log(origin, whitelist);
         if (whitelist.indexOf(origin) !== -1) {
             callback(null, true)
         } else {
